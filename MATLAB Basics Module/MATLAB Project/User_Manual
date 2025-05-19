@@ -1,1 +1,20 @@
-User_Manual
+%User_Manual
+
+This repo has two files
+
+1- the first has extension .m  --> It's the main applicaation code
+2- The other file is excel file that contains the values of theta_1 and theta_2 arrenged in 2 vectors
+
+%How to run
+1- Keep 2 files in the same directory in MATLAB, to let the main program take data from excel file
+2- Be sure the name of .m file is the same in line number 4 as follows:
+                                           classdef filename < matlab.apps.AppBase
+
+
+%Mathematical Model:
+* The main purpose of the program is to manipulate "inverse kinamatics model" for 2 robot arms connected with one joint
+* This code was built upon understanding to the motion of the end-effector through the motion of 2 arms
+* The main 4 paramters are 2 angles and 2 length of each arm
+* After building the model a simulation was performed along 2 vectors of theta each has 100 point
+* The different from forward kinamatics is that we have a certain path for the end effector and we aim to generate theta values to achieve this path
+* The path was chosen is a circle with arms 10,7 in length with radius of 3 
