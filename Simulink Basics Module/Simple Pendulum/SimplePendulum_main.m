@@ -11,9 +11,11 @@ mdl = gcs;  % Get current Simulink model
 g = 9.8;
 q0 = 0.2;
 
-lValues = 1:2:5;  % [1, 3, 5]
+lValues = 1:2:5;  % [1, 3, 5]  %different values of length
+
 legendLabel = cell(1, numel(lValues));  % Preallocate
 
+%%Initialize figures
 figure(1); 
 hold on; grid on; 
 title('Angular Displacement (q)'); 
@@ -25,6 +27,8 @@ hold on; grid on;
 title('Angular Velocity (dq)'); 
 ylim([-5*q0, 5*q0]);
 
+
+%%Simulation
 for i = 1:numel(lValues)
     L = lValues(i);
     res = sim(mdl);
