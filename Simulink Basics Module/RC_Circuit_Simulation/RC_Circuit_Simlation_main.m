@@ -1,5 +1,5 @@
 %% Name: Mohamad Hatem Mohammad Saeed
-%% Lab_3
+%% Lab_4
 %% RC Circuit Simulation
 %%
 
@@ -7,8 +7,11 @@ clc
 clear all
 close all
 
+%givins
 R = 1;
 C = 1e-6;
+
+%Initial condition in Vc = 0
 
 mdl = gcs;
 
