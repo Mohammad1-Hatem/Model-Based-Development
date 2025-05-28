@@ -1,7 +1,7 @@
-%% Name: Mohamad Hatem Mohammad Saeed
-%% Lab 3
-%% Simple Pendulum Simulation
-%%
+% Name: Mohamad Hatem Mohammad Saeed
+% Lab_3
+% Simple Pendulum Simulation
+%
 
 clc
 clear all
