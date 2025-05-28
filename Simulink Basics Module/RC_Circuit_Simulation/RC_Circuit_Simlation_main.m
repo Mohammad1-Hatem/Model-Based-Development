@@ -7,7 +7,7 @@ clc
 clear all
 close all
 
-%givins
+%givens
 R = 1;
 C = 1e-6;
 
