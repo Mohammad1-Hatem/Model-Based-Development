@@ -1,4 +1,4 @@
-%% Name: Mohammad Hatem
+%% Name_Mohammad_Hatem
 %% Subject: Control System Project Using MATLAB Scripting
 %% Creating the Model
 modelName = 'ControlSystemProject';
