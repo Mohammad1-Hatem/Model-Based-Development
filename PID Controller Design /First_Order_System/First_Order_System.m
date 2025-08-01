@@ -6,6 +6,8 @@ clc
 clear all
 close all
 
+%%Changing K
+
 k = 1;
 taw = 1;
 
@@ -42,7 +44,8 @@ end
 
 legend(['Unit step';legendLabel'],'Location','best');  %This line took an effort to be adjusted
 title('Open Loop - First Order System with variable K')
-%%
+
+%%Changing Time Constant 
 
 tau_values = [0.5 1 2];
 
